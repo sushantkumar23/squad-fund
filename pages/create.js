@@ -5,7 +5,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Create() {
   const [agreed, setAgreed] = useState(false)
   const [walletAddress, setWalletAddress] = useState('0x052564eb0fd8b340803df55def89c25c432f43f4')
   const [fundName, setFundName] = useState('')
@@ -86,7 +86,7 @@ export default function Example() {
   }
 
   return (
-    <div className="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24">
+    <div className="bg-white py-8 px-4 overflow-hidden sm:px-6 lg:px-8">
       <div className="relative max-w-xl mx-auto">
         <svg
           className="absolute left-full transform translate-x-1/2"

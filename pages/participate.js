@@ -1,25 +1,3 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
-
-const stats = [
-    { label: 'Vacation days left', value: 12 },
-    { label: 'Sick days left', value: 4 },
-    { label: 'Personal days left', value: 2 },
-  ]
 const funds = [
     {
       name: 'Beach Party',
@@ -66,7 +44,7 @@ const funds = [
       },
   ]
   
-  export default function Example() {
+  export default function Participate() {
     return (
       <div className="bg-gray-100">
         <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
