@@ -82,7 +82,7 @@ const funds = [
               className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0"
             >
               {funds.map((fund) => (
-                <div className="rounded-lg bg-white overflow-hidden shadow-lg">
+                <div key={fund.name} className="rounded-lg bg-white overflow-hidden shadow-lg">
                 <h2 className="sr-only" id="profile-overview-title">
                   Profile Overview
                 </h2>
