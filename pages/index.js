@@ -205,9 +205,6 @@ export default function Example() {
               </Popover.Button>
             </div>
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-              <a href="#" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
-                Sign in
-              </a>
               <a
                 href="#"
                 className="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700"
@@ -272,12 +269,6 @@ export default function Example() {
                     >
                       Connect wallet
                     </a>
-                    <p className="mt-6 text-center text-base font-medium text-gray-500">
-                      Existing customer?
-                      <a href="#" className="text-gray-900">
-                        Sign in
-                      </a>
-                    </p>
                   </div>
                 </div>
               </div>
@@ -304,7 +295,7 @@ export default function Example() {
                 </p>
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                    <Link href="create" passHref>
+                    <Link href="/create" passHref>
                       <a
                         
                         className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8"
