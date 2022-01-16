@@ -43,11 +43,32 @@ const funds = [
         size: '50 ETH',
         contributionRange: '0.5-1.3 ETH'
       },
+      {
+        name: 'Web3 Investing',
+        role: 'Doodles',
+        purpose: 'Fund for investing in new upcoming web3 companies founded by Doodles NFT entrepreners',
+        imageUrl:
+          'https://lh3.googleusercontent.com/7B0qai02OdHA8P_EOVK672qUliyjQdQDGNrACxs7WnTgZAkJa_wWURnIFKeOh5VTf8cfTqW3wQpozGedaC9mteKphEOtztls02RlWQ=s300',
+        twitterUrl: '#',
+        linkedinUrl: '#',
+        size: '150 ETH',
+        contributionRange: '2-3 ETH'
+      },
+      {
+        name: 'Support Women',
+        role: 'World of Women',
+        purpose: 'Fund for supporting women-centric businesses being built by the NFT owners of the WoW!',
+        imageUrl: 'https://lh3.googleusercontent.com/7rQxqp2cAN4J-pFJ6A22Ncb_tm2j6Lz61zXMi9bNJbmAk8PheVXcL4zVIZptVQ8_owbOJAiYuhSbn0vtjwcE4Jg7FQqDGwZTndd-_A=s200',
+        twitterUrl: '#',
+        linkedinUrl: '#',
+        size: '120 ETH',
+        contributionRange: '6-7 ETH'
+      },
   ]
   
   export default function Example() {
     return (
-      <div className="bg-white">
+      <div className="bg-gray-100">
         <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
@@ -61,7 +82,7 @@ const funds = [
               className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0"
             >
               {funds.map((fund) => (
-                <div className="rounded-lg bg-white overflow-hidden shadow">
+                <div className="rounded-lg bg-white overflow-hidden shadow-lg">
                 <h2 className="sr-only" id="profile-overview-title">
                   Profile Overview
                 </h2>
